@@ -4,6 +4,12 @@ import befaster.runner.SolutionNotImplementedException;
 
 public class FizzBuzzSolution {
 
+    public boolean contain3(int x){
+        while(x != 0){
+            if
+        }
+    }
+
     public String fizzBuzz(Integer number) {
         String result="";
         if(number%3 == 0){
@@ -23,4 +29,5 @@ public class FizzBuzzSolution {
     }
 
 }
+
 
