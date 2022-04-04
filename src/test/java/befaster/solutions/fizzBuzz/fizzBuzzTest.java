@@ -18,7 +18,7 @@ public class fizzBuzzTest {
 
     @Test
     public void compute_fizzbuzz() {
-        assertThat(sol.fizzBuzz(3), equalTo("fizz"));
+        /*assertThat(sol.fizzBuzz(3), equalTo("fizz"));
         assertThat(sol.fizzBuzz(5), equalTo("buzz"));
         assertThat(sol.fizzBuzz(30), equalTo("fizz buzz"));
         assertThat(sol.fizzBuzz(1),equalTo("1"));
@@ -30,6 +30,11 @@ public class fizzBuzzTest {
         assertThat(sol.fizzBuzz(11),equalTo("fake deluxe"));
         assertThat(sol.fizzBuzz(555),equalTo("fizz buzz fake deluxe"));
         assertThat(sol.fizzBuzz(44),equalTo("deluxe"));
-        assertThat(sol.fizzBuzz(11),equalTo("fake deluxe"));
+        assertThat(sol.fizzBuzz(11),equalTo("fake deluxe"));*/
+        assertThat(sol.fizzBuzz(50),equalTo("buzz deluxe"));
+        assertThat(sol.fizzBuzz(33),equalTo("fizz fake deluxe"));
+        assertThat(sol.fizzBuzz(35),equalTo("fizz buzz fake deluxe"));
+
     }
 }
+
