@@ -12,14 +12,6 @@ public class FizzBuzzSolution {
         return true;
     }
 
-    public Integer isdelux(int x) {
-        if (x % 2 != 0 && x > 10 && equal(x))
-            return 0;
-        if (x > 10 && equal(x))
-            return 1;
-        return 2;
-
-    }
 
     public boolean contain3(int x) {
         while (x != 0) {
@@ -37,6 +29,19 @@ public class FizzBuzzSolution {
             x /= 10;
         }
         return false;
+    }
+
+    public Integer isdelux(int x) {
+        if (x % 2 != 0 && x % 3 == 0 && contain3(x))
+            return 0;
+        if (x % 2 != 0 && x % 5 == 0 && contain5(x))
+            return 0;
+        if (x % 3 == 0 && contain3(x))
+            return 1;
+        if (x % 5 == 0 && contain5(x))
+            return 1;
+        return 2;
+
     }
 
     public String fizzBuzz(Integer number) {
@@ -76,3 +81,4 @@ public class FizzBuzzSolution {
     }
 
 }
+
