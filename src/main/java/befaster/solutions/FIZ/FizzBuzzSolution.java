@@ -13,9 +13,9 @@ public class FizzBuzzSolution {
     }
 
     public Integer isdelux(int x) {
-        if(x%3 ==0 && x > 10 && equal(x))
+        if (x % 2 != 0 && x > 10 && equal(x))
             return 0;
-        if(x > 10 && equal(x))
+        if (x > 10 && equal(x))
             return 1;
         return 2;
 
@@ -76,5 +76,6 @@ public class FizzBuzzSolution {
     }
 
 }
+
 
 

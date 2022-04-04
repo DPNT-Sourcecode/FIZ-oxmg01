@@ -29,7 +29,9 @@ public class fizzBuzzTest {
         assertThat(sol.fizzBuzz(33),equalTo("fizz deluxe"));
         assertThat(sol.fizzBuzz(11),equalTo("deluxe"));
         assertThat(sol.fizzBuzz(555),equalTo("fizz buzz deluxe"));
+        assertThat(sol.fizzBuzz(77),equalTo("fake deluxe"));
     }
 }
+
 
 
