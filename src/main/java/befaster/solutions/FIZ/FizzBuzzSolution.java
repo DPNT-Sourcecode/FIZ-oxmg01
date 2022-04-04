@@ -12,8 +12,13 @@ public class FizzBuzzSolution {
         return true;
     }
 
-    public boolean isdelux(int x) {
-        return x > 10 && equal(x);
+    public Integer isdelux(int x) {
+        if(x%3 ==0 && x > 10 && equal(x))
+            return 0;
+        if(x > 10 && equal(x))
+            return 1;
+        return 2;
+
     }
 
     public boolean contain3(int x) {
@@ -47,11 +52,20 @@ public class FizzBuzzSolution {
             }
         }
 
-        if (isdelux(number)) {
+        if (isdelux(number) == 1) {
             if (result != "") {
                 result += " deluxe";
             } else {
                 result += "deluxe";
+            }
+        }
+
+
+        if (isdelux(number) == 0) {
+            if (result != "") {
+                result += " fake deluxe";
+            } else {
+                result += "fake deluxe";
             }
         }
 
@@ -62,4 +76,5 @@ public class FizzBuzzSolution {
     }
 
 }
+
 
