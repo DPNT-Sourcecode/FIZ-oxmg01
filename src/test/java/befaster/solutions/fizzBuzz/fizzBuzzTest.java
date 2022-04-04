@@ -33,7 +33,3 @@ public class fizzBuzzTest {
         assertThat(sol.fizzBuzz(11),equalTo("fake deluxe"));
     }
 }
-
-
-
-
