@@ -22,7 +22,13 @@ public class fizzBuzzTest {
         assertThat(sol.fizzBuzz(5), equalTo("buzz"));
         assertThat(sol.fizzBuzz(30), equalTo("fizz buzz"));
         assertThat(sol.fizzBuzz(1),equalTo("1"));
+        assertThat(sol.fizzBuzz(13),equalTo("fizz"));
+        assertThat(sol.fizzBuzz(52),equalTo("buzz"));
+        assertThat(sol.fizzBuzz(53),equalTo("fizz buzz"));
+
+
 
     }
 }
+
 
